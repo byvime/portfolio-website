@@ -45,20 +45,22 @@ header {
 
 /* navigation bar */
 
-nav {
-  width: auto;
-  float: right;
-  margin-top: 4px;
-}
-
 nav > ul { /* Deletes bullet point */
   list-style-type: none;
   padding: 0;
   margin: 0px
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
 .nav-link {
   transition: 0.7s ease;
+}
+
+.navtoggle.responsive li  {
+  display: block;
 }
 
 nav > ul > li > a {
