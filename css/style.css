@@ -352,7 +352,7 @@ footer {
 
 
 /* ==============================
-Medium devices (640px and larger)
+Medium devices (360px and larger)
 ================================= */
 @media only screen and (min-width: 360px) {
   .logo {
@@ -472,7 +472,6 @@ Large devices (1024px or larger)
     padding: 10px;
   }
   
-
   .container {
     max-width: 1200px;
     margin-left: auto;
