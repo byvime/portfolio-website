@@ -354,7 +354,7 @@ footer {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 600px) {
   .logo {
     max-width: 150px;
   }
@@ -377,11 +377,11 @@ Medium devices (640px and larger)
     padding: 10px 0;
     border-top: 1px solid #ffd800;
   }
-  
+
   .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
   }
-
+  
   .navtoggle li .icon {
     position: absolute;
     right: 10px;
