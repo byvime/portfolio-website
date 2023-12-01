@@ -354,7 +354,7 @@ footer {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 360px) {
   .logo {
     max-width: 150px;
   }
