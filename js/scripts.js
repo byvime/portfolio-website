@@ -5,6 +5,5 @@ function menuToggle() {
       x.className += ' responsive';
     } else {
       x.className = 'navtoggle';
-      contactLink.setAttribute('onclick', 'menuToggle()')
     }
   }

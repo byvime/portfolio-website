@@ -45,22 +45,20 @@ header {
 
 /* navigation bar */
 
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+
 nav > ul { /* Deletes bullet point */
   list-style-type: none;
   padding: 0;
   margin: 0px
 }
 
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-
 .nav-link {
   transition: 0.7s ease;
-}
-
-.navtoggle.responsive li  {
-  display: block;
 }
 
 nav > ul > li > a {
@@ -386,9 +384,9 @@ Medium devices (640px and larger)
 
   .navtoggle li .icon {
     position: absolute;
-    right: 20px;
-    top: 15px;
-    font-size: 25px;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
     padding-right: 25px;
   }
 
