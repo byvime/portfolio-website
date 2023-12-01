@@ -57,10 +57,6 @@ nav > ul { /* Deletes bullet point */
   margin: 0px
 }
 
-nav > ul > li { /* Everything in a line */
-  display: inline-block;
-}
-
 .nav-link {
   transition: 0.7s ease;
 }
@@ -350,6 +346,10 @@ footer {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -366,8 +366,28 @@ Medium devices (640px and larger)
 
   nav {
     width: auto;
-    float: right;
     margin-top: 4px;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #ffd800;
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 25px;
+    padding-right: 25px;
   }
 
   #hero span {
@@ -382,9 +402,7 @@ Medium devices (640px and larger)
     font-size: 16px;
   }
 
-  picture {
-    width: 100%;
-  }
+  picture 
 
   h1 {
     font-size: 2.75em;
@@ -428,14 +446,25 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   header {
-    text-align: unset;
+    text-align: right;
     padding: 20px 0 13px;
   }
 
   nav {
     width: auto;
-    float: right;
     margin-top: 4px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   [class*="col-"] {
@@ -443,6 +472,7 @@ Large devices (1024px or larger)
     padding: 10px;
   }
   
+
   .container {
     max-width: 1200px;
     margin-left: auto;

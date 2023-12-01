@@ -17,22 +17,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <title>UX/UI Designer Ester Vime</title>
   </head>
   <body>
     <div id="about-page">
      <header>
       <div class="container">
-        <div class="logo">
-         <img src="img/contact/byvime_logo.svg" alt="Logo" >
+        <div class="navtoggle" id="myNavtoggle">
+          <div class="logo">
+           <img src="img/contact/byvime_logo.svg" alt="Logo" >
+          </div>
+          <nav class="navbar">
+            <ul class="navigation">
+             <li><a href="index.html" class="nav-link">Work</a></li>
+             <li><a href="about.html" class="nav-link">About</a></li>
+             <li><a href="#contact" class="nav-link">Contact</a></li>
+             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="navbar">
-          <ul class="navigation">
-            <li><a href="index.html" class="nav-link">Work</a></li>
-            <li><a href="about.html" class="nav-link">About</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
-        </nav>
       </div>
      </header>
     </div>
@@ -713,6 +717,7 @@
       <p>Copyright Ester Vime 2023</p>
       </div>
    </footer>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
    <script src="js/scripts.js"></script>
   </body>
 </html>

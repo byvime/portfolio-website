@@ -22,16 +22,19 @@
   <body>
     <header>
       <div class="container">
-        <div class="logo">
-         <img src="img/contact/byvime_logo.svg" alt="Ester Vime" >
+        <div class="navtoggle" id="myNavtoggle">
+          <div class="logo">
+           <img src="img/contact/byvime_logo.svg" alt="Logo" >
+          </div>
+          <nav class="navbar">
+            <ul class="navigation">
+             <li><a href="index.html" class="nav-link">Work</a></li>
+             <li><a href="about.html" class="nav-link">About</a></li>
+             <li><a href="#contact" class="nav-link">Contact</a></li>
+             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul class="navigation">
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
     <main>
@@ -194,6 +197,7 @@
       <p>Copyright Ester Vime 2023</p>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
