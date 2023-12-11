@@ -12,8 +12,8 @@ Open Sans;
 Layout styling */
 
 .logo {
-  width: 200px; /* Adjust the width as needed */
-  height: 25px; /* Maintain aspect ratio */
+  width: 150px; /* Adjust the width as needed */
+  height:  20px; /* Maintain aspect ratio */
 }
 
 .container {
@@ -86,7 +86,7 @@ nav > ul > li > a:active {
 
 #hero {
   background-color: #fff;
-  padding: 20px 0;
+  padding: 10px 0;
   width: 100%;
   text-align: center;
   display: inline-block;
@@ -207,8 +207,8 @@ a:active {
   color: #fff;
   font-weight: 400;
   padding: 10px;
-  border-radius: 3px;
-  border-bottom: 3px solid #151726;
+  border-radius: 8px;
+  border-bottom: 2px solid #151726;
   transition: 0.2s opacity;
 }
 
@@ -395,7 +395,7 @@ Medium devices (360px and larger)
   }
 
   main {
-    padding-top: 200px;
+    padding-top: 50px;
   }
 
   body {
@@ -497,7 +497,7 @@ Large devices (1024px or larger)
   }
 
   main {
-    padding-top: 150px;
+    padding-top: 50px;
   }
 }
 
